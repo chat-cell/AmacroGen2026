@@ -1,0 +1,9 @@
+# Exact segment-level vertical symmetry is requested for every net.
+axis vertical 6.5
+self n01
+self n02
+self n03
+self n04
+self n05
+self n06
+length_slack 8

@@ -1,0 +1,11 @@
+# Synthetic scalability stress case; deterministic generated pins.
+# Format: net_name pin1_x pin1_y pin2_x pin2_y [...]
+n01 2 1 15 1
+n02 2 2 15 2
+n03 2 3 15 3
+n04 2 4 3 4 14 4 15 4
+n05 2 5 3 5 14 5 15 5
+n06 2 6 3 6 14 6 15 6
+n07 2 7 3 7 14 7 15 7
+n08 2 8 3 8 14 8 15 8
+n09 2 9 3 9 14 9 15 9

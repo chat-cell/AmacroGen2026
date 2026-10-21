@@ -1,0 +1,3 @@
+# Synthetic scalability stress case; not an industrial benchmark.
+# Format: rows cols
+12 16

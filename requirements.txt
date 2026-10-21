@@ -1,0 +1,4 @@
+z3-solver==4.16.0.0
+matplotlib==3.9.4
+jsonschema==4.23.0
+pyparsing==3.2.3

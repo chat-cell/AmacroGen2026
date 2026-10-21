@@ -1,0 +1,4 @@
+# Nets configuration file
+# Format: net_name pin1_x pin1_y pin2_x pin2_y [pin3_x pin3_y ...]
+P1 3 4 4 4 1 9 6 9 
+P3 1 4 6 4 3 9 4 9  

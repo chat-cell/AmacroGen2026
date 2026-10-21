@@ -1,0 +1,236 @@
+{
+  "benchmark_type": "synthetic_composed_scalability_stress",
+  "case_order": [
+    "scale_S_balanced",
+    "scale_S_asymmetric",
+    "scale_M_balanced",
+    "scale_M_asymmetric",
+    "scale_L_balanced",
+    "scale_L_asymmetric",
+    "scale_XL_balanced",
+    "scale_XL_asymmetric"
+  ],
+  "cases": [
+    {
+      "cols": 8,
+      "grid_points_per_layer": 32,
+      "input_sha256": {
+        "constraint_config.txt": "7934739006b9e2e72b4844856328cfc136b3d4a97075aa413667044a1853fefd",
+        "grid_config.txt": "f953ca3b989d38a52d08d2e7f75574eac9938f962c9b249e5ada7141bc389f6e",
+        "net_config.txt": "37806a011bc7d25628a6bf8643b356e23d8884c69676d5b50f320a10ed534421"
+      },
+      "intended_fallback_behavior": "not_needed",
+      "intended_strict_behavior": "sat",
+      "name": "scale_S_balanced",
+      "nets": 3,
+      "pin_counts": [
+        2,
+        4,
+        4
+      ],
+      "pins": 10,
+      "rows": 4,
+      "size": "S",
+      "synthetic": true,
+      "variant": "balanced"
+    },
+    {
+      "cols": 8,
+      "grid_points_per_layer": 32,
+      "input_sha256": {
+        "constraint_config.txt": "7934739006b9e2e72b4844856328cfc136b3d4a97075aa413667044a1853fefd",
+        "grid_config.txt": "f953ca3b989d38a52d08d2e7f75574eac9938f962c9b249e5ada7141bc389f6e",
+        "net_config.txt": "8b5cb9c00b4e2bc1281188e673bf974460e7e64cad4755c8e9a8189d397cf213"
+      },
+      "intended_fallback_behavior": "sat",
+      "intended_strict_behavior": "unsat_or_timeout",
+      "name": "scale_S_asymmetric",
+      "nets": 3,
+      "pin_counts": [
+        2,
+        4,
+        4
+      ],
+      "pins": 10,
+      "rows": 4,
+      "size": "S",
+      "synthetic": true,
+      "variant": "asymmetric"
+    },
+    {
+      "cols": 12,
+      "grid_points_per_layer": 96,
+      "input_sha256": {
+        "constraint_config.txt": "cbc43792136a62ce7a2043def936efb054d55ea5f82eab1f457eacf81e3971a1",
+        "grid_config.txt": "840facaf6c9dcbba7c4924e40cdd7e2e477c4687abfe8047cdcb5500045c54ea",
+        "net_config.txt": "8e6f4365574b998b350f192fa8285c806616202728a5f526a99bbb941927be0c"
+      },
+      "intended_fallback_behavior": "not_needed",
+      "intended_strict_behavior": "sat",
+      "name": "scale_M_balanced",
+      "nets": 6,
+      "pin_counts": [
+        2,
+        2,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pins": 20,
+      "rows": 8,
+      "size": "M",
+      "synthetic": true,
+      "variant": "balanced"
+    },
+    {
+      "cols": 12,
+      "grid_points_per_layer": 96,
+      "input_sha256": {
+        "constraint_config.txt": "cbc43792136a62ce7a2043def936efb054d55ea5f82eab1f457eacf81e3971a1",
+        "grid_config.txt": "840facaf6c9dcbba7c4924e40cdd7e2e477c4687abfe8047cdcb5500045c54ea",
+        "net_config.txt": "0a1c1033d78c7e792889090728aea645a12e9b828c3d83f6ed59ec3586e7cf2e"
+      },
+      "intended_fallback_behavior": "sat",
+      "intended_strict_behavior": "unsat_or_timeout",
+      "name": "scale_M_asymmetric",
+      "nets": 6,
+      "pin_counts": [
+        2,
+        2,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pins": 20,
+      "rows": 8,
+      "size": "M",
+      "synthetic": true,
+      "variant": "asymmetric"
+    },
+    {
+      "cols": 16,
+      "grid_points_per_layer": 192,
+      "input_sha256": {
+        "constraint_config.txt": "cd66fb416b96c74d6d95d63e38f95c00d209f35b53bd9ad28a03b69b4deb5603",
+        "grid_config.txt": "751b6f1ce5309dc6af7f1756a6ed25ec0d4b2d0f881e3022fe2b3ea4e203caf9",
+        "net_config.txt": "e96512598aa6f37278accac04a8620077d38bddb2e2ae8e5230165517d26581b"
+      },
+      "intended_fallback_behavior": "not_needed",
+      "intended_strict_behavior": "sat",
+      "name": "scale_L_balanced",
+      "nets": 9,
+      "pin_counts": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pins": 30,
+      "rows": 12,
+      "size": "L",
+      "synthetic": true,
+      "variant": "balanced"
+    },
+    {
+      "cols": 16,
+      "grid_points_per_layer": 192,
+      "input_sha256": {
+        "constraint_config.txt": "cd66fb416b96c74d6d95d63e38f95c00d209f35b53bd9ad28a03b69b4deb5603",
+        "grid_config.txt": "751b6f1ce5309dc6af7f1756a6ed25ec0d4b2d0f881e3022fe2b3ea4e203caf9",
+        "net_config.txt": "11d4ed2f7994486d5de044368d9d95b15ac6bcf5d593532fa5e1769c3c38476f"
+      },
+      "intended_fallback_behavior": "sat",
+      "intended_strict_behavior": "unsat_or_timeout",
+      "name": "scale_L_asymmetric",
+      "nets": 9,
+      "pin_counts": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pins": 30,
+      "rows": 12,
+      "size": "L",
+      "synthetic": true,
+      "variant": "asymmetric"
+    },
+    {
+      "cols": 24,
+      "grid_points_per_layer": 384,
+      "input_sha256": {
+        "constraint_config.txt": "a84a8ea152deae75bd373c64c8c45f99c06e243143c6fc7ba66ac3892b1f1167",
+        "grid_config.txt": "b7679338ea211f57b79aee2b395e6b96c45d29efa0abb23ed89217a828a6c1d4",
+        "net_config.txt": "20040e56ed99a8360824ee67b34a3fc9ef28f260a0ae5dac8e0e5d22e248459a"
+      },
+      "intended_fallback_behavior": "not_needed",
+      "intended_strict_behavior": "sat",
+      "name": "scale_XL_balanced",
+      "nets": 12,
+      "pin_counts": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pins": 42,
+      "rows": 16,
+      "size": "XL",
+      "synthetic": true,
+      "variant": "balanced"
+    },
+    {
+      "cols": 24,
+      "grid_points_per_layer": 384,
+      "input_sha256": {
+        "constraint_config.txt": "a84a8ea152deae75bd373c64c8c45f99c06e243143c6fc7ba66ac3892b1f1167",
+        "grid_config.txt": "b7679338ea211f57b79aee2b395e6b96c45d29efa0abb23ed89217a828a6c1d4",
+        "net_config.txt": "0c54755f420f2b24b5da7e08796203429930473943f408fe166f54cd4b0a57d4"
+      },
+      "intended_fallback_behavior": "sat",
+      "intended_strict_behavior": "unsat_or_timeout",
+      "name": "scale_XL_asymmetric",
+      "nets": 12,
+      "pin_counts": [
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pins": 42,
+      "rows": 16,
+      "size": "XL",
+      "synthetic": true,
+      "variant": "asymmetric"
+    }
+  ],
+  "schema_version": 1
+}

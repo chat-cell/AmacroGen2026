@@ -1,0 +1,3 @@
+# Grid configuration file
+# Format: M_rows N_cols
+6 10
